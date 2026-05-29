@@ -1,0 +1,42 @@
+# Secrets and credentials
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Spark checkpoint directories
+checkpoints/
+
+# Output data
+output/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large datasets
+*.csv
+
+# Binary deliverables (presentations, reports, media)
+*.pptx
+*.pdf
+*.mp4
+*.mov
+*.avi
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
